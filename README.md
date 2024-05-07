@@ -2,4 +2,4 @@
 
 - Este repositorio contem os scripts em Python utilizados na disciplina do curso de Engenharia Sanitaria e Ambiental.
 
-Desenvolvedor: KeziaLifonso
+Desenvolvedor: KeziaBernarda
