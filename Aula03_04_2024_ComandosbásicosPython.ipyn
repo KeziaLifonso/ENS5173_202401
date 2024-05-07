@@ -1,0 +1,119 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "4d22e417-52f3-44c7-8570-981ae6a3c79e",
+   "metadata": {},
+   "source": [
+    "# Aula 03/04/2024 - Comandos básicos do Python\n",
+    "\n",
+    "Nesta aula aprenderemos a importar pacotes e os tipos de variáveis\\\n",
+    "Desenvolvedor: Kezia Lifonso"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7f21ace7-4b52-4c4d-b44d-c92a9ed78cb2",
+   "metadata": {},
+   "source": [
+    "## Tipos de variáveis"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "a0e07451-87c2-40bf-b8aa-b56d9c5ade5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a = 1\n",
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Criando variávies inteiras\n",
+    "a=1\n",
+    "print('a = '+str(a))\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "51bc45db-7c61-49a4-9932-a98a9484554a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "salve o corinthians\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Criando variáveis string\n",
+    "b='salve o '\n",
+    "c= 'corinthians'\n",
+    "print(b+c)\n",
+    "print(type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "382ba5b8-893b-442e-adec-ed6fe74ef3ff",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "666.666\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Criando variáveis float/double precision\n",
+    "d=666.666\n",
+    "print(d)\n",
+    "print(type(d))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "77b81e11-cccd-487f-8305-504ed0e1b10c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
